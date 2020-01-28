@@ -1,3 +1,4 @@
+Resukting Articl on topic: https://medium.com/@svitlana_78975/matching-koalas-on-fire-134ad3d2822
 # Optimal-Matching-Ratio
 
 As of now, it seems most data scientists use M=1 as a default and a starting point for matching, under the assumption that it usually provides the best balance on covariates.  However, this may not always be the case (e.g. if we seek to match for an observation of age 20.0 and consider the potential matches 17.9 and 22.0, M=1 would match the observation with 22.0, while M=2 would weight 17.9 and 22.0 to return a closer match of 19.95).  We will seek to explore scenarios where one-to-multiple matching provides better balance (than one-to-one matching)—and, by nature, a larger sample size—by coming up with our own very small toy data set(s). 
